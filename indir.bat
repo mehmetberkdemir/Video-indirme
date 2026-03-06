@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-cd /d "X:\Drive'ım\Projeler\Video-indirme"
+cd /d "%~dp0"
 set "PATH=%cd%\araçlar;%PATH%"
 
 if "%~1"=="" (

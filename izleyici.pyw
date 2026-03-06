@@ -14,7 +14,7 @@ import queue
 import traceback
 
 # Yollar
-BASE_DIR    = r"X:\Drive'ım\Projeler\Video-indirme"
+BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
 ARACLAR_DIR = os.path.join(BASE_DIR, "araçlar")
 VIDEOLAR_DIR = os.path.join(BASE_DIR, "videolar")
 YTDLP_EXE   = os.path.join(ARACLAR_DIR, "yt-dlp.exe")

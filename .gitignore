@@ -7,3 +7,6 @@ araçlar/ffmpeg.exe
 araçlar/deno.exe
 araçlar/python/
 araçlar/*.zip
+
+# Claude Code
+claude-başlat.bat

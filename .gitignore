@@ -1,0 +1,9 @@
+# Indirilen videolar
+videolar/
+
+# Buyuk binary araclar (kurulum scripti ile indirilir)
+araçlar/yt-dlp.exe
+araçlar/ffmpeg.exe
+araçlar/deno.exe
+araçlar/python/
+araçlar/*.zip

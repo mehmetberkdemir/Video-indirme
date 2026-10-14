@@ -49,7 +49,7 @@ if not exist "araçlar\python\python.exe" (
     powershell -Command "Invoke-WebRequest -Uri 'https://bootstrap.pypa.io/get-pip.py' -OutFile 'araçlar\python\get-pip.py'"
     "araçlar\python\python.exe" "araçlar\python\get-pip.py" >nul 2>&1
     echo       Python paketleri kuruluyor...
-    "araçlar\python\python.exe" -m pip install pyperclip pystray pillow winotify >nul 2>&1
+    "araçlar\python\python.exe" -m pip install pyperclip pystray pillow winotify PySide6 >nul 2>&1
     echo       OK
 ) else (
     echo       Zaten mevcut, atlaniyor.
@@ -60,7 +60,7 @@ echo ============================================
 echo   Kurulum tamamlandi!
 echo ============================================
 echo.
-echo   Basla.bat  = Clipboard izleyici (tray)
-echo   indir.bat  = Manuel indirme
+echo   Basla.bat  = Video Indirici GUI uygulamasini baslat
+echo   indir.bat  = Manuel indirme (eski)
 echo.
 pause

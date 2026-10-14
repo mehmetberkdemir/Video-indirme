@@ -10,3 +10,9 @@ araçlar/*.zip
 
 # Claude Code
 claude-başlat.bat
+
+app.log
+queue.json
+__pycache__/
+*.pyc
+.claude/
